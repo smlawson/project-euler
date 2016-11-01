@@ -2,7 +2,7 @@ l = 0 #index that keeps track of the largest palindromic number so far
 m = 100 #working index 1
 n = 100 #working index 2
 
-def test(m,n): #function that determines whether or now the product of its two inputs is a palindromic number
+def test(m,n): #function that determines whether or not the product of its two inputs is a palindromic number
     s = str(m*n) #considers the product of the inputs as a string
     if m*n < 100000: #case for six-digit products
         if s[0] == s[4] and s[1] == s[3]: #palindrome test
