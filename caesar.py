@@ -31,7 +31,7 @@ while choice != 1 and choice != 2:
 if choice == 1:
     
     #plaintext encryption
-    plaintext = raw_input("Enter plaintext message: ")
+    plaintext = raw_input("Enter plaintext message (letters and spaces only): ")
     plaintext = plaintext.upper()
     p = list(plaintext)
 
