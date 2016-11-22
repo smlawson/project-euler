@@ -68,7 +68,7 @@ if choice == 2:
     else:
         
         s = 0
-        while s < 27:
+        while s < 26:
             decrypt(c)
             plaintext = ''.join(c)
             print plaintext
