@@ -72,4 +72,5 @@ if choice == 2:
             decrypt(c)
             plaintext = ''.join(c)
             print plaintext
+            encrypt(c)
             s += 1
